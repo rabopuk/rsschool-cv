@@ -2,10 +2,129 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>cv</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="assets/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,300&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#summary" class="nav-link" >Summary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#courses" class="nav-link">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#code" class="nav-link">Code</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#english" class="nav-link">English</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">Govorik Artem</h1>
+                </div>
+                <img src="./assets/img/avatar.jpg" alt="avatar" class="section-profile-logo">
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">
+                        <p><span class="uppercase-text">Location:</span> Moscow, Russia</p>
+                    </li>
+                    <li class="section-item contacts-item">
+                        <p><span class="uppercase-text">Phone:</span> +7(912)338-44-18</p>
+                    </li>
+                    <li class="section-item contacts-item">
+                        <p><span class="uppercase-text">Email:</span> <a href="mailto:rabopuk@gmail.com" title="email">rabopuk@gmail.com</a></p>
+                    </li>
+                    </li>
+                    <li class="section-item contacts-item">
+                        <p><span class="uppercase-text">Discord:</span> <a href="https://discordapp.com/users/356617125013749762" title="discord">rabopuk#6211</a></p>
+                    </li>
+                    <li class="section-item contacts-item">
+                        <p><span class="uppercase-text">Github:</span> <a href="https://github.com/rabopuk" title="github">@rabopuk</a></p>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>In this life, I have studied new professions many times (engineer, tattoo artist, designer), but I have never brought any of them to their logical end. Now I want to change my life qualitatively. Therefore, I approach studying at RSSchool consciously. First of all, I need it myself. Therefore, I will try to cope with all the difficulties in order to successfully complete the training. I have a flexible mind, I am an extrovert and an empath, and I also adore cats.</p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p><span class="uppercase-text">Vyatka State University,</span> Process engineer. Technology of artistic processing of materials</p>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <p><span class="uppercase-text">Skillbox</span> Graphic design</p>
+            </section>
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <ul>
+                    <li>
+                        <span class="uppercase-text">Artistic School</span>
+                    </li>
+                    <li>
+                        <span class="uppercase-text">Tattoo artist</span>
+                    </li>
+                    <li>
+                        <span class="uppercase-text">Design / Freelance</span> (Photoshop Illustrator)
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code (kek)</h2>
+                <pre>
+                    <code class="code-element">
+                        const square = (num) => {
+                          return num * num;
+                        };
+                        </code>
+                    </pre>
+            </section>
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p><span class="uppercase-text">A2/B1</span> (Basic/Pre-Intermediate)</p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+                © 2022
+            <a href="https://github.com/rabopuk" class="github-link">rabopuk</a>
+        </div>
+        <div class="rss-link">
+            <a href="https://rs.school/js/" class="rss-logo">
+                <img src="./assets/svg/rssLogo.png" alt="rss-link">
+            </a>
+        </div>
+        
+    </footer>
 </body>
 </html>
