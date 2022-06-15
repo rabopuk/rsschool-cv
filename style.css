@@ -30,11 +30,12 @@ p {
   margin: 0 auto;
   min-height: 50px;
 }
-
-.rss-link {
-  width: 20px;
-  position: relative;
-  top: 3px;
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
 }
 
 .github-link {
@@ -80,7 +81,6 @@ p {
   font-weight: 700;
   transition: .4s;
   }
-
 
 .section {
   width: 50%;
