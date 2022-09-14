@@ -31,7 +31,7 @@ Vyatka State University, Process engineer
 - JS (basic)
 - Git, GitHub
 - VSCode
-- Adobe Photoshop, Adobe Illustrator, Figma
+- Photoshop, Illustrator, Figma
 
 ## **Code Example**
 ```
